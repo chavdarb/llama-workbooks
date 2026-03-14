@@ -35,6 +35,8 @@ This script runs benchmark tests for the Qwen3.5-35B-A3B model with the followin
 The model uses unsloth quantizations from: https://unsloth.ai/docs/models/qwen3.5
 
 ### Requirements
-- llama.cpp installed and configured
-- Model files in the expected directory structure
+- llama.cpp installed and configured on system path
+- llama-swap installed and configured on system path
+- Model files need to be in '/data/models' folder
+
 

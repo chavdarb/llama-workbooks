@@ -1,0 +1,5 @@
+models:
+  qwen35-27b-chat:
+    cmd: llama-server --port ${PORT} --model /path/to/model.gguf
+  qwen35-35b-chat:
+    cmd: llama-server --port ${PORT} --model /path/to/model.gguf

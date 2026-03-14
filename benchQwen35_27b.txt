@@ -1,0 +1,27 @@
+Model path: 
+| model                          |       size |     params | backend    | ngl | fa |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | -: | --------------: | -------------------: |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |           pp512 |       877.42 ± 31.40 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |          pp1024 |        898.15 ± 0.22 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |          pp2048 |        910.33 ± 0.28 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |          pp4096 |        901.30 ± 0.33 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |          pp8192 |        867.85 ± 0.66 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |         pp16384 |        794.01 ± 0.14 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |           tg128 |         20.04 ± 0.01 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |           tg256 |         20.06 ± 0.00 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |           tg512 |         19.98 ± 0.00 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |          tg1024 |         20.00 ± 0.00 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  0 |          tg2048 |         19.96 ± 0.00 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |           pp512 |       890.29 ± 13.94 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |          pp1024 |        915.60 ± 0.47 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |          pp2048 |        937.77 ± 0.34 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |          pp4096 |        942.60 ± 0.32 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |          pp8192 |        933.57 ± 0.19 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |         pp16384 |        902.62 ± 0.12 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |           tg128 |         20.20 ± 0.00 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |           tg256 |         20.21 ± 0.00 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |           tg512 |         20.19 ± 0.00 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |          tg1024 |         20.18 ± 0.00 |
+| qwen35 27B Q4_K - Medium       |  16.40 GiB |    26.90 B | CUDA       |  99 |  1 |          tg2048 |         20.13 ± 0.00 |
+
+build: f7db3f378 (8214)
