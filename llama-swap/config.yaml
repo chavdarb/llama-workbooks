@@ -1,5 +1,7 @@
 models:
   qwen35-27b-chat:
-    cmd: llama-server --port ${PORT} --model /path/to/model.gguf
+    cmd: ./startQwen35_27B-server.sh ${PORT}
   qwen35-35b-chat:
-    cmd: llama-server --port ${PORT} --model /path/to/model.gguf
+    cmd: ./startQwen35_35B-A3B-server.sh ${PORT}
+  gpt-oss-20b-chat:
+    cmd: ./startGptOss_20B-server.sh ${PORT}

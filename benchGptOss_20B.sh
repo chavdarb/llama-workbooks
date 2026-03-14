@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-MODEL_NAME="Qwen3.5-35B-A3B"
-QUANTIZATION="UD-Q4_K_XL"
+MODEL_NAME="gpt-oss-20b"
+QUANTIZATION="F16"
 MODELS_HOME_FOLDER="/data/models/unsloth/$MODEL_NAME-GGUF"
 
 
@@ -11,4 +11,4 @@ echo "Model path: $MODEL_PATH"
 cd "$LLAMA_HOME"
 ./llama-bench \
     --model "${MODELS_HOME_FOLDER}/${MODEL_NAME}-${QUANTIZATION}.gguf" \
-    -ngl 99 -fa 0,1 -p 512,1024,2048,4096,8192,16384,32768 -n 128,256,512,1024,2048
+    -ngl 99 -fa 0,1 -p 512,1024,2048,4096,8192,16384 -n 128,256,512,1024,2048

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 MODEL_NAME="Qwen3.5-27B"
 QUANTIZATION="UD-Q4_K_XL"
 MODELS_HOME_FOLDER="/data/models/unsloth/$MODEL_NAME-GGUF"

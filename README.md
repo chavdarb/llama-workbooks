@@ -31,8 +31,9 @@ This script runs benchmark tests for the Qwen3.5-35B-A3B model with the followin
 - Uses 99 GPU layers (ngl 99)
 - Sets flash attention to 0,1
 
-### Quantization Information
-The model uses unsloth quantizations from: https://unsloth.ai/docs/models/qwen3.5
+### Information used during setup
+Using Qwen3 unsloth models: https://unsloth.ai/docs/models/qwen3.5
+Installing and using llama-swap: 
 
 ### Requirements
 - llama.cpp installed and configured on system path
