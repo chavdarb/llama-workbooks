@@ -15,8 +15,18 @@ cd "$LLAMA_HOME"
 exec ./llama-server \
     --model "${MODELS_HOME_FOLDER}/${MODEL_NAME}-${QUANTIZATION}.gguf" \
     --mmproj "${MODELS_HOME_FOLDER}/mmproj-F16.gguf" \
-    --temp 1.0 \
+    --ctx-size 65536 \
+    --temp 0.6 \
     --top-p 0.95 \
     --min-p 0.00 \
     --top-k 20 \
-    --port "$PORT"
+    --port "$PORT" \
+    --flash-attn on \
+    --split-mode layer \
+    --tensor-split 1,1 \
+    --cache-type-k bf16 \
+    --cache-type-v bf16 \
+    --presence-penalty 1.5 \
+    --repeat-penalty 1.0 \
+    --batch-size 4096 --ubatch-size 1024
+    
