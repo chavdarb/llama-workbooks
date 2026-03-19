@@ -27,6 +27,4 @@ exec ./llama-server \
     --cache-type-k bf16 \
     --cache-type-v bf16 \
     --presence-penalty 1.5 \
-    --repeat-penalty 1.0 \
-    --batch-size 4096 --ubatch-size 1024
-    
+    --repeat-penalty 1.0    
